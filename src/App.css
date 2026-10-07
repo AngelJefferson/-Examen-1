@@ -1,0 +1,75 @@
+/* Autor: Angel Jefferson Sanchez Ventura - Matrícula: 2021-1816 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+}
+
+.menu {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding-top: max(env(safe-area-inset-top), 40px);
+}
+
+.menu button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #dde3ee;
+  font-size: 15px;
+}
+
+.menu button.activo {
+  background: #3b5bdb;
+  color: white;
+}
+
+.tarjeta {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tarjeta input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.tarjeta button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #3b5bdb;
+  color: white;
+  font-size: 16px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3b5bdb;
+}
+
+.fila {
+  background: #edf2ff;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 8px;
+}
+
+.resultado {
+  color: #3b5bdb;
+  margin-top: 15px;
+}
